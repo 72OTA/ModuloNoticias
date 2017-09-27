@@ -1,0 +1,9 @@
+INSERT INTO `nielsendb`.`tblnoticias_menu` (`idopcion`, `descripcion`, `PosI`) VALUES ('1', 'NOTICIAS', '1');
+INSERT INTO `nielsendb`.`tblnoticias_menu` (`idopcion`, `descripcion`, `PosI`) VALUES ('2', 'DESCARGAS', '2');
+INSERT INTO `nielsendb`.`tblnoticias_menu` (`idopcion`, `descripcion`, `PosI`) VALUES ('3', 'EVALUACIONES', '3');
+INSERT INTO `nielsendb`.`tblnoticias_submenu` (`idopcion`, `idsubmenu`, `PosS`, `url`, `descripcion`) VALUES ('1', '1', '1', 'noticiasfinal/?view=LISTARNOTICIAS', 'Modificar Noticias');
+INSERT INTO `nielsendb`.`tblnoticias_submenu` (`idopcion`, `idsubmenu`, `PosS`, `url`, `descripcion`) VALUES ('1', '2', '1', 'noticiasfinal/?view=CARGANOTICIAS', 'Subir noticias');
+INSERT INTO `nielsendb_temp`.`tblnoticias_submenu` (`idopcion`, `idsubmenu`, `PosS`, `url`, `descripcion`) VALUES ('2', '1', '1', 'noticiasfinal/?view=DESCARGAS', 'Descargas');
+INSERT INTO `nielsendb`.`tbl_noticias_blog` (`titulo`, `dcorta`, `dlarga`, `estatus`, `ano`, `mes`, `origen`) VALUES ('Noticia de prueba3', 'Descripcion corta de la noticia', 'Cuerpo de la noticia, notese que debe ingresar la opcion correspondiente al slider donde desea almacenar la noticia, si esta es importante.', 'importante1', '2017', '09', 'ADMINISTRA');
+INSERT INTO `nielsendb`.`tbl_noticias_blog` (`titulo`, `dcorta`, `dlarga`, `estatus`, `ano`, `mes`, `origen`) VALUES ('Noticia de prueba2', 'Descripcion corta de la noticia', 'Cuerpo de la noticia, notese que debe ingresar la opcion correspondiente al slider donde desea almacenar la noticia, si esta es importante.', 'importante1', '2017', '09', 'ADMINISTRA');
+INSERT INTO `nielsendb`.`tbl_noticias_blog` (`titulo`, `dcorta`, `dlarga`, `estatus`, `ano`, `mes`, `origen`) VALUES ('Noticia de prueba1', 'Descripcion corta de la noticia', 'Cuerpo de la noticia, notese que debe ingresar la opcion correspondiente al slider donde desea almacenar la noticia, si esta es importante.', 'importante1', '2017', '09', 'ADMINISTRA');
